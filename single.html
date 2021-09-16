@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Montserrat Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="frontend/icons/font-awesome/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+
+    <!-- Custom CSS Style -->
+    <link rel="stylesheet" href="frontend/styles/style.css">
+
+    <title>Hefa Store</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html#home">
+          <img src="frontend/img/logo_small.png" alt="Hefa Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#home">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="category.html">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#designer">Designer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+          </ul>
+          <a href="#" class="nav-link text-white">
+            <i class="fas fa-shopping-cart"></i>
+            My Cart (<span>12</span>)
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Breadcrumb -->
+    <section class="section-breadcrumb">
+      <div class="container">
+        <nav>
+          <ol class="breadcrumb bg-transparent pl-0">
+            <li class="breadcrumb-item">
+              <a href="index.html">Category</a>
+            </li>
+            <li class="breadcrumb-item active">
+              Single Product
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    <!-- End of Breadcrumb -->
+
+    <!-- Single Product -->
+    <section class="section-single-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <figure class="figure">
+              <img src="frontend/img/single/1.png" alt="Image" class="img-fluid figure-img" width="444">
+              <figcaption class="figure-caption d-flex justify-content-between product-thumbnail-container mx-auto">
+                <a href="#">
+                  <img src="frontend/img/single/thumbnail/1.png" alt="Image">
+                </a>
+                <a href="#">
+                  <img src="frontend/img/single/thumbnail/2.png" alt="Image">
+                </a>
+                <a href="#">
+                  <img src="frontend/img/single/thumbnail/3.png" alt="Image">
+                </a>
+                <a href="#" class="d-flex justify-content-center align-items-center" style="width: 80px;">
+                  <img src="frontend/img/single/thumbnail/4.png" alt="Image">
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-lg-4">
+            <h3>Jeans: Giordano XI</h3>
+            <p class="text-muted">IDR 290.000.000</p>
+            <button type="button" class="btn btn-sm" style="background-color: #EAEAEF;">
+              <i class="fas fa-minus-circle text-light"></i>
+            </button>
+            <span class="mx-2">20</span>
+            <button type="button" class="btn btn-sm btn-success">
+              <i class="fas fa-plus-circle"></i>
+            </button>
+
+            <div class="btn-product">
+              <a href="cart.html" class="btn btn-warning text-white">
+                Add to Cart
+              </a>
+              <a href="cart.html" class="btn" style="background-color: #EAEAEF; color: #ADADAD;">
+                Add to Wishlist
+              </a>
+            </div>
+
+            <div class="designed-by">
+              <h5>Designed By</h5>
+              <div class="row">
+                <div class="col-2">
+                  <img src="frontend/img/single/2.png" alt="Image">
+                </div>
+                <div class="col mt-1 ml-lg-4 ml-2">
+                  <h4>Anne Mortgery</h4>
+                  <p>14.2k <span>Followers</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Single Product -->
+
+    <!-- Product Description & Reviews -->
+    <section class="section-description-reviews p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">
+                  Product Description
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="reviews-tab" data-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">
+                  Reviews (20)
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content bg-white p-3" id="myTabContent">
+              <div class="tab-pane fade show active product-reviews" id="description" role="tabpanel" aria-labelledby="description-tab">
+                <p>
+                  Payday is finally here and you’ve got some extra cash to help you stock up your summer wardrobe. Not sure where to start? ASOS Stylist Beccy Goldsworthy is here with the best of what’s new, from 80s-inspired tracksuits to some seriously fresh trainers. Check out her picks below and watch the video for more.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec felis metus. Vivamus eu urna tempor, pretium erat quis, volutpat eros. Cras consectetur dolor at venenatis feugiat. Fusce nunc risus, finibus eget augue ac, ornare gravida turpis. Morbi consequat, nisi sit amet viverra feugiat, lacus mauris ornare erat, at pharetra odio dolor id elit. Pellentesque eu aliquet ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+              <div class="tab-pane fade product-reviews" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                <div class="row">
+                  <div class="col-12 col-sm-1">
+                    <img src="frontend/img/single/review/1.png" alt="Image">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p class="p-review">Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 col-sm-1">
+                    <img src="frontend/img/single/review/2.png" alt="Image">
+                  </div>
+                  <div class="col">
+                    <h5>Brian Smith</h5>
+                    <p class="p-review">Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 col-sm-1">
+                    <img src="frontend/img/single/review/1.png" alt="Image">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p class="p-review">Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 col-sm-1">
+                    <img src="frontend/img/single/review/2.png" alt="Image">
+                  </div>
+                  <div class="col">
+                    <h5>Brian Smith</h5>
+                    <p class="p-review">Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 col-sm-1">
+                    <img src="frontend/img/single/review/1.png" alt="Image">
+                  </div>
+                  <div class="col">
+                    <h5>Joe Mackenzie</h5>
+                    <p class="p-review">Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 col-sm-1">
+                    <img src="frontend/img/single/review/2.png" alt="Image">
+                  </div>
+                  <div class="col">
+                    <h5>Brian Smith</h5>
+                    <p class="p-review">Produknya bagus dan bahannya juga rapih cocok untuk kulit</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Product Description & Reviews -->
+
+    <!-- Similar Products -->
+    <section class="section-similar-products">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <div class="col-10 col-sm-12">
+            <h3>Similar Product</h3>
+            <p>Pakaian pelengkap produk di atas</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center justify-content-sm-start">
+          <div class="col-10 col-sm-6 col-md-4">
+            <figure class="figure">
+              <img src="frontend/img/single/similar/1.png" alt="Image" class="img-fluid figure-img">
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h4>Hatty Bomb</h4>
+                    <p>Match 20%</p>
+                  </div>
+                  <div class="col d-flex justify-content-end align-items-center">
+                    <p style="font-size: 18px;">IDR 209.000</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-10 col-sm-6 col-md-4">
+            <figure class="figure">
+              <img src="frontend/img/single/similar/2.png" alt="Image" class="img-fluid figure-img">
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h4>White Pure</h4>
+                    <p>Match 20%</p>
+                  </div>
+                  <div class="col d-flex justify-content-end align-items-center">
+                    <p style="font-size: 18px;">IDR 209.000</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="col-10 col-sm-6 col-md-4">
+            <figure class="figure">
+              <img src="frontend/img/single/similar/3.png" alt="Image" class="img-fluid figure-img">
+              <figcaption class="figure-caption">
+                <div class="row">
+                  <div class="col">
+                    <h4>Hatty Bomb</h4>
+                    <p>Match 20%</p>
+                  </div>
+                  <div class="col d-flex justify-content-end align-items-center">
+                    <p style="font-size: 18px;">IDR 209.000</p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Similar Products -->
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-1">
+            <img src="frontend/img/logo_small.png" alt="Image">
+          </div>
+          <div class="col-4 text-right">
+            <a href="#">
+              <img src="frontend/img/social/fb.png" alt="Image">
+            </a>
+            <a href="#">
+              <img src="frontend/img/social/ig.png" alt="Image">
+            </a>
+            <a href="#">
+              <img src="frontend/img/social/twitter.png" alt="Image">
+            </a>
+          </div>
+        </div>
+
+        <div class="row mt-3 justify-content-between">
+          <div class="col-5">
+            <p>All Right Reserved by Hefa Store Copyright 2019.</p>
+          </div>
+          <div class="col-6">
+            <nav class="nav justify-content-end text-uppercase">
+              <a href="#" class="nav-link active">Jobs</a>
+              <a href="#" class="nav-link">Developer</a>
+              <a href="#" class="nav-link">Terms</a>
+              <a href="#" class="nav-link pr-0">Privacy Policy</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery -->
+    <script src="frontend/libraries/jquery/jquery-3.6.0.js"></script>
+    <!-- Popper -->
+    <script src="frontend/libraries/popper/popper.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <!-- Font Awesome -->
+    <script src="frontend/icons/font-awesome/js/all.js"></script>
+  </body>
+</html>

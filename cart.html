@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Montserrat Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="frontend/icons/font-awesome/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+
+    <!-- Custom CSS Style -->
+    <link rel="stylesheet" href="frontend/styles/style.css">
+
+    <title>Hefa Store</title>
+  </head>
+  <body>
+
+    <!-- Section Cart -->
+    <section class="section-cart-header mt-5">
+      <div class="container">
+        <div class="row my-3 text-center">
+          <div class="col">
+            <h3>Your Cart</h3>
+            <p>Pastikan barang anda terbayar lunas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section Cart -->
+
+    <!-- Breadcrumb -->
+    <section class="section-breadcrumb cart-breadcrumb">
+      <div class="container">
+        <nav>
+          <ol class="breadcrumb bg-transparent pl-0">
+            <li class="breadcrumb-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active">
+              Cart Checkout
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    <!-- End of Breadcrumb -->
+
+    <!-- Section Checkout -->
+    <section class="section-checkout">
+      <div class="container">
+        <div class="row justify-content-between" style="margin-bottom: 100px;">
+          <div class="col-lg-6">
+            <h4 class="mb-4">Your Items</h4>
+            <div class="row mb-4">
+              <div class="col-2">
+                <img src="frontend/img/cart/item1.png" alt="Image">
+              </div>
+
+              <div class="col-4">
+                <h5 class="m-0">Jeans Papp</h5>
+                <p class="m-0" style="color: #B7B7B7;">IDR 280.000.100</p>
+              </div>
+
+              <div class="col-4">
+                <button type="button" class="btn btn-sm" style="background-color: #EAEAEF;">
+                  <i class="fas fa-minus-circle text-light"></i>
+                </button>
+                <span class="mx-2">20</span>
+                <button type="button" class="btn btn-sm btn-success">
+                  <i class="fas fa-plus-circle"></i>
+                </button>
+              </div>
+
+              <div class="col-2 text-right">
+                <button type="button" class="btn btn-sm btn-danger">
+                  <i class="fas fa-times-circle"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <div class="col-2">
+                <img src="frontend/img/cart/item1.png" alt="Image">
+              </div>
+
+              <div class="col-4">
+                <h5 class="m-0">Jeans Papp</h5>
+                <p class="m-0" style="color: #B7B7B7;">IDR 280.000.100</p>
+              </div>
+
+              <div class="col-4">
+                <button type="button" class="btn btn-sm" style="background-color: #EAEAEF;">
+                  <i class="fas fa-minus-circle text-light"></i>
+                </button>
+                <span class="mx-2">20</span>
+                <button type="button" class="btn btn-sm btn-success">
+                  <i class="fas fa-plus-circle"></i>
+                </button>
+              </div>
+
+              <div class="col-2 text-right">
+                <button type="button" class="btn btn-sm btn-danger">
+                  <i class="fas fa-times-circle"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <div class="col-2">
+                <img src="frontend/img/cart/item1.png" alt="Image">
+              </div>
+
+              <div class="col-4">
+                <h5 class="m-0">Jeans Papp</h5>
+                <p class="m-0" style="color: #B7B7B7;">IDR 280.000.100</p>
+              </div>
+
+              <div class="col-4">
+                <button type="button" class="btn btn-sm" style="background-color: #EAEAEF;">
+                  <i class="fas fa-minus-circle text-light"></i>
+                </button>
+                <span class="mx-2">20</span>
+                <button type="button" class="btn btn-sm btn-success">
+                  <i class="fas fa-plus-circle"></i>
+                </button>
+              </div>
+
+              <div class="col-2 text-right">
+                <button type="button" class="btn btn-sm btn-danger">
+                  <i class="fas fa-times-circle"></i>
+                </button>
+              </div>
+            </div>
+
+            <h4 class="mb-3" style="margin-top: 100px;">Your Address</h4>
+
+            <form action="">
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="Alamat lengkap">
+              </div>
+
+              <div class="form-group">
+                <label for="address2">Address II</label>
+                <input type="text" class="form-control" id="address2" name="address2" placeholder="Alamat tambahan">
+              </div>
+
+              <div class="form-group">
+                <label for="city">City</label>
+                <select name="city" id="city" class="custom-select">
+                  <option selected>Select City</option>
+                  <option value="Bandung">Bandung</option>
+                  <option value="Jakarta">Jakarta</option>
+                  <option value="Surabaya">Surabaya</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="country">Country</label>
+                <select name="country" id="country" class="custom-select">
+                  <option selected>Select Country</option>
+                  <option value="1">Indonesia</option>
+                  <option value="2">Malaysia</option>
+                  <option value="3">Singapore</option>
+                </select>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="card rounded-0 checkout-detail">
+              <div class="card-body">
+                <h5 class="card-title">Informasi Biaya</h5>
+                <div class="row mb-3">
+                  <div class="col">
+                    <h6 class="m-0">Jeans Papp</h6>
+                    <small style="color: #B7B7B7;">2 Items</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <h6 class="m-0 align-self-center text-success">IDR 600.000.000</h6>
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col">
+                    <h6 class="m-0">Jeans Papp</h6>
+                    <small style="color: #B7B7B7;">2 Items</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <h6 class="m-0 align-self-center text-success">IDR 600.000.000</h6>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row mb-3">
+                  <div class="col">
+                    <h6 class="m-0">Courier</h6>
+                    <small style="color: #B7B7B7;">JNT Express</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <h6 class="m-0 align-self-center text-success">IDR 201.000</h6>
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col">
+                    <h6 class="m-0">Tax</h6>
+                    <small style="color: #B7B7B7;">Negara 20%</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <h6 class="m-0 align-self-center text-success">IDR 1.799.000</h6>
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col">
+                    <h6 class="m-0">Eid Promo</h6>
+                    <small style="color: #B7B7B7;">10% OFF</small>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <h6 class="m-0 align-self-center text-danger">-IDR 50.000.000</h6>
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col">
+                    <h6 class="m-0">Total Harga</h6>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                    <h6 class="m-0 align-self-center text-primary">IDR 1.520.940.300</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col">
+                <a href="single.html" class="btn btn-block" style="background-color: #EAEAEF; color: #ADADAD;">
+                  Cancel
+                </a>
+              </div>
+
+              <div class="col">
+                <button type="button" class="btn btn-block btn-warning text-white" data-toggle="modal"
+                data-target="#checkoutModal">
+                  Checkout
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Checkout -->
+
+    <!-- Modal -->
+    <div class="modal fade checkout-modal-success" id="checkoutModal" tabindex="-1" role="dialog" aria-labelledby="checkoutModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <img src="frontend/img/cart/sukses_checkout.png" alt="Image" class="mb-5">
+            <h3>Checkout Berhasil</h3>
+            <p>Anda akan mendapatkan barang anda <br> dalam beberapa hari</p>
+            <a href="index.html" class="btn" style="background-color: #EAEAEF; color: #ADADAD;">Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modal -->
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-1">
+            <img src="frontend/img/logo_small.png" alt="Image">
+          </div>
+          <div class="col-4 text-right">
+            <a href="#">
+              <img src="frontend/img/social/fb.png" alt="Image">
+            </a>
+            <a href="#">
+              <img src="frontend/img/social/ig.png" alt="Image">
+            </a>
+            <a href="#">
+              <img src="frontend/img/social/twitter.png" alt="Image">
+            </a>
+          </div>
+        </div>
+
+        <div class="row mt-3 justify-content-between">
+          <div class="col-5">
+            <p>All Right Reserved by Hefa Store Copyright 2019.</p>
+          </div>
+          <div class="col-6">
+            <nav class="nav justify-content-end text-uppercase">
+              <a href="#" class="nav-link active">Jobs</a>
+              <a href="#" class="nav-link">Developer</a>
+              <a href="#" class="nav-link">Terms</a>
+              <a href="#" class="nav-link pr-0">Privacy Policy</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery -->
+    <script src="frontend/libraries/jquery/jquery-3.6.0.js"></script>
+    <!-- Popper -->
+    <script src="frontend/libraries/popper/popper.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <!-- Font Awesome -->
+    <script src="frontend/icons/font-awesome/js/all.js"></script>
+  </body>
+</html>
